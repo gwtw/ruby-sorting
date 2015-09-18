@@ -1,11 +1,11 @@
 require 'minitest/autorun'
 require 'json'
-require_relative '../lib/insertion_sort'
+require_relative '../lib/selection_sort'
 require_relative 'test_helper'
 
-class InsertionSortTest < Minitest::Test
+class SelectionSortTest < Minitest::Test
   extend TestHelper
-  include InsertionSort
+  include SelectionSort
 
   add_all_base_tests
 end

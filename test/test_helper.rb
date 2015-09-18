@@ -1,6 +1,6 @@
 require 'json'
 
-module BaseSortingTest
+module TestHelper
   @@data_dir = File.dirname(__FILE__) + '/data'
 
   def add_all_base_tests
