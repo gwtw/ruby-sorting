@@ -1,5 +1,4 @@
 require 'minitest/autorun'
-require 'json'
 require_relative '../lib/insertion_sort'
 require_relative 'test_helper'
 
