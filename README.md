@@ -24,7 +24,7 @@ rdoc
 ## Running tests
 
 ```bash
-./run_tests
+rake
 ```
 
 
