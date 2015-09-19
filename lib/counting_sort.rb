@@ -3,7 +3,7 @@
 
 module CountingSort
   # Sorts an array using counting sort.
-  def sort(array, max_value)
+  def self.sort(array, max_value)
     buckets = Array.new(max_value + 1)
     sorted_index = 0
 

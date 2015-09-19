@@ -6,5 +6,5 @@ class GnomeSortTest < Minitest::Test
   extend TestHelper
   include GnomeSort
 
-  add_all_base_tests
+  add_all_base_tests GnomeSort
 end

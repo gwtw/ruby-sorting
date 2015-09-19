@@ -3,7 +3,7 @@
 
 module SelectionSort
   # Sorts an array using selection sort.
-  def sort(array, compare = lambda { |a, b| a <=> b })
+  def self.sort(array, compare = lambda { |a, b| a <=> b })
     (0..array.length - 1).each do |i|
       minIndex = i
       (i + 1..array.length - 1).each do |j|

@@ -3,7 +3,7 @@
 
 module GnomeSort
   # Sorts an array using gnome sort.
-  def sort(array, compare = lambda { |a, b| a <=> b })
+  def self.sort(array, compare = lambda { |a, b| a <=> b })
     pos = 1
     while pos < array.length
       if compare.call(array[pos], array[pos - 1]) >= 0

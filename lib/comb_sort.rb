@@ -3,7 +3,7 @@
 
 module CombSort
   # Sorts an array using comb sort.
-  def sort(array, compare = lambda { |a, b| a <=> b })
+  def self.sort(array, compare = lambda { |a, b| a <=> b })
     gap = array.length
     shrink_factor = 1.3
     swapped = false

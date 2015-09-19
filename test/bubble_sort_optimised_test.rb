@@ -6,5 +6,5 @@ class BubbleSortOptimisedTest < Minitest::Test
   extend TestHelper
   include BubbleSortOptimised
 
-  add_all_base_tests
+  add_all_base_tests BubbleSortOptimised
 end

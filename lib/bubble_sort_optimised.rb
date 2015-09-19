@@ -3,7 +3,7 @@
 
 module BubbleSortOptimised
   # Sorts an array using the optimised version of bubble sort.
-  def sort(array, compare = lambda { |a, b| a <=> b })
+  def self.sort(array, compare = lambda { |a, b| a <=> b })
     unsorted_below = array.length
     while unsorted_below != 0
       last_swap = 0

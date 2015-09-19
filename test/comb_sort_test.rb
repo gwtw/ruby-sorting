@@ -6,5 +6,5 @@ class CombSortTest < Minitest::Test
   extend TestHelper
   include CombSort
 
-  add_all_base_tests
+  add_all_base_tests CombSort
 end

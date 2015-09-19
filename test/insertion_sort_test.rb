@@ -6,5 +6,5 @@ class InsertionSortTest < Minitest::Test
   extend TestHelper
   include InsertionSort
 
-  add_all_base_tests
+  add_all_base_tests InsertionSort
 end

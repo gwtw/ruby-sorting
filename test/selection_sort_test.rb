@@ -6,5 +6,5 @@ class SelectionSortTest < Minitest::Test
   extend TestHelper
   include SelectionSort
 
-  add_all_base_tests
+  add_all_base_tests SelectionSort
 end

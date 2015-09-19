@@ -11,7 +11,7 @@ class CountingSortTest < Minitest::Test
   integerTests.each do |test|
     if not test['sorted'].empty? and test['sorted'].first >= 0
       define_method("test_integer_#{test["it"].gsub(" ", "_")}") do
-        assert_sort_test(test, test['sorted'].last)
+        assert_sort_test(CountingSort, test, test['sorted'].last)
       end
     end
   end
