@@ -3,7 +3,7 @@ module BubbleSortOptimised
     unsorted_below = array.length
     while unsorted_below != 0
       last_swap = 0
-      for i in 1..(unsorted_below - 1)
+      (1..unsorted_below - 1).each do |i|
         if compare.call(array[i - 1], array[i]) > 0
           array[i], array[i - 1] = array[i - 1], array[i]
           last_swap = i

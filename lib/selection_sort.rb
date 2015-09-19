@@ -1,8 +1,8 @@
 module SelectionSort
   def sort(array, compare = lambda { |a, b| a <=> b })
-    for i in 0..(array.length - 1)
+    (0..array.length - 1).each do |i|
       minIndex = i
-      for j in (i + 1)..(array.length - 1)
+      (i + 1..array.length - 1).each do |j|
         if compare.call(array[j], array[minIndex]) < 0
           minIndex = j
         end

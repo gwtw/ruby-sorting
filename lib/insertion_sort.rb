@@ -1,6 +1,6 @@
 module InsertionSort
   def sort(array, compare = lambda { |a, b| a <=> b })
-    for i in 1..(array.length - 1)
+    (1..array.length - 1).each do |i|
       item = array[i]
       indexHole = i
       while indexHole > 0 and compare.call(array[indexHole - 1], item) > 0
