@@ -1,5 +1,7 @@
 # ruby-sorting
 
+[![Build Status](http://img.shields.io/travis/GrowingWithTheWeb/ruby-sorting.svg?style=flat)](http://travis-ci.org/GrowingWithTheWeb/ruby-sorting)
+
 A collection of sorting algorithms written in Ruby.
 
 Detailed information on the complexity of each algorithm is located [here][complexity_readme]. To learn more about how some of the algorithms are implemented, have a look at the [technical articles on my blog][gwtw_sorting].
