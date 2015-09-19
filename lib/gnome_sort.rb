@@ -1,4 +1,8 @@
+# Copyright:: Copyright (c) 2015 Daniel Imms
+# License::   MIT License
+
 module GnomeSort
+  # Sorts an array using gnome sort.
   def sort(array, compare = lambda { |a, b| a <=> b })
     pos = 1
     while pos < array.length

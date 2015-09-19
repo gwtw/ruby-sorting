@@ -1,4 +1,8 @@
+# Copyright:: Copyright (c) 2015 Daniel Imms
+# License::   MIT License
+
 module CombSort
+  # Sorts an array using comb sort.
   def sort(array, compare = lambda { |a, b| a <=> b })
     gap = array.length
     shrink_factor = 1.3
