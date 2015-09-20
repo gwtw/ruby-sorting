@@ -45,11 +45,10 @@ MIT © [Daniel Imms](http://www.growingwiththeweb.com)
 
 ## See also
 
-### Sorting in other languages
-
-* [js-sorting](https://github.com/Tyriar/js-sorting)
-* [java-sorting](https://github.com/GrowingWithTheWeb/java-sorting)
-* [py-sorting](https://github.com/GrowingWithTheWeb/py-sorting)
+* Sorting in other languages
+ * [js-sorting](https://github.com/Tyriar/js-sorting)
+ * [java-sorting](https://github.com/GrowingWithTheWeb/java-sorting)
+ * [py-sorting](https://github.com/GrowingWithTheWeb/py-sorting)
 
 
 
