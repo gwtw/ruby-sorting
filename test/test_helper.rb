@@ -40,9 +40,17 @@ end
 def assert_sort_test(sort_module, test, sort_arg = nil)
   result = test['original']
   if sort_arg.nil?
-    sort_module.sort(result)
+    if sort_module.methods.include? :sort!
+      sort_module.sort! result
+    else
+      sort_module.sort result
+    end
   else
-    sort_module.sort(result, sort_arg)
+    if sort_module.methods.include? :sort!
+      sort_module.sort! result, sort_arg
+    else
+      sort_module.sort result, sort_arg
+    end
   end
   assert_equal test['sorted'], result, test['it']
 end
