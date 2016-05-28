@@ -1,6 +1,6 @@
 # ruby-sorting
 
-[![Build Status](http://img.shields.io/travis/GrowingWithTheWeb/ruby-sorting.svg?style=flat)](http://travis-ci.org/GrowingWithTheWeb/ruby-sorting)
+[![Build Status](http://img.shields.io/travis/gwtw/ruby-sorting.svg?style=flat)](http://travis-ci.org/gwtw/ruby-sorting)
 
 A collection of sorting algorithms written in Ruby.
 
@@ -46,11 +46,11 @@ MIT © [Daniel Imms](http://www.growingwiththeweb.com)
 ## See also
 
 * Sorting in other languages
- * [js-sorting](https://github.com/GrowingWithTheWeb/js-sorting)
- * [java-sorting](https://github.com/GrowingWithTheWeb/java-sorting)
- * [py-sorting](https://github.com/GrowingWithTheWeb/py-sorting)
+ * [js-sorting](https://github.com/gwtw/js-sorting)
+ * [java-sorting](https://github.com/gwtw/java-sorting)
+ * [py-sorting](https://github.com/gwtw/py-sorting)
 
 
 
 [gwtw_sorting]: http://www.growingwiththeweb.com/p/explore.html?t=Sorting
-[complexity_readme]: https://github.com/GrowingWithTheWeb/js-sorting/tree/master/lib/README.md
+[complexity_readme]: https://github.com/gwtw/js-sorting/tree/master/lib/README.md
