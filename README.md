@@ -1,6 +1,6 @@
 # ruby-sorting
 
-[![Build Status](http://img.shields.io/travis/gwtw/ruby-sorting.svg?style=flat)](http://travis-ci.org/gwtw/ruby-sorting)
+[![Build Status](https://travis-ci.org/gwtw/ruby-sorting.svg?branch=master)](http://travis-ci.org/gwtw/ruby-sorting)
 
 A collection of sorting algorithms written in Ruby.
 
