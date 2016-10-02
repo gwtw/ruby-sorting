@@ -7,7 +7,7 @@ module OddEvenSort
     sorted = false
     while !sorted
       sorted = self.innerSort(array, 1, compare)
-      sorted = sorted && self.innerSort(array, 0, compare)
+      sorted = self.innerSort(array, 0, compare) && sorted
     end
   end
 
