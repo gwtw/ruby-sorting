@@ -13,7 +13,8 @@ module OddEvenSort
 
 private
 
-  # Performs a bubble sort iteration with a specific start index
+  # Compares every second element of an array with its following element and
+  # swaps it if not in order using a compare function
   def self.innerSort(array, start, compare)
     sorted = true
     (start..array.length - 2).step(2) do |i|
