@@ -22,7 +22,7 @@ private
   # than the pivot to a lesser index and all elements greater than the pivot to a
   # greater index.
   def self.partition_random(array, left, right, compare)
-    pivot = left + (rand.floor * (right - left))
+    pivot = left + (rand * (right - left)).floor
     if pivot != right
       array[right], array[pivot] = array[pivot], array[right]
     end
